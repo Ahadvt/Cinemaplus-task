@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container .logo {
+  background-color: #334E9E;
+  width: 40%;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .logo img {
+  width: 260px;
+  padding: 10px;
+}
+
+header .container .navbar {
+  width: 770px;
+}
+
+header .container .navbar .header-top {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container .navbar .header-top .info ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container .navbar .header-top .info ul li {
+  margin-left: 60px;
+}
+
+header .container .navbar .header-top .info ul li :hover {
+  color: black;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .container .navbar .header-top .info ul li a {
+  text-decoration: none;
+  color: gray;
+}
+
+header .container .navbar .header-top .lang ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px;
+}
+
+header .container .navbar .header-top .lang ul li {
+  margin-right: 10px;
+}
+
+header .container .navbar .header-top .lang ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header .container .navbar .header-top .lang ul li a img {
+  width: 15px;
+}
+
+header .container .navbar .header-bottom {
+  background-color: #00ACEC;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .navbar .header-bottom .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container .navbar .header-bottom .links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container .navbar .header-bottom .links ul li {
+  list-style-type: none;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .container .navbar .header-bottom .links ul li :hover {
+  background-color: #334E9E;
+}
+
+header .container .navbar .header-bottom .links ul li a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px;
+  width: 120px;
+  height: 60px;
+}
+
+header .container .navbar .header-bottom .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px;
+}
+
+header .container .navbar .header-bottom .contact p {
+  color: white;
+  margin-right: 20px;
+}
+
+header .container .navbar .header-bottom .contact img {
+  height: 30px;
+  width: auto;
+}
+/*# sourceMappingURL=main.css.map */
